@@ -30,7 +30,8 @@ Se han aprendido el uso de los conjuntos de forma práctica
 
 
 2. **Pasos para Ejecutar el Código:**
-   ```python3 + fichero.py
+   ```
+   python3 + fichero.py
    ```
 
 

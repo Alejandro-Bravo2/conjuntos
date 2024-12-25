@@ -9,18 +9,6 @@ Encuentra las frutas que están en frutas1 pero no en frutas2 y guárdalas en un
 Encuentra las frutas que están en frutas2 pero no en frutas1 y guárdalas en un conjunto llamado frutas_solo_en_frutas2.
 """
 
-def diferenciasFrutas2(listaFrutas1:set, listaFrutas2:set)->set:
-    """Encuentra las frutas que están en la listaFrutas2 pero no en la listaFrutas1
-
-    :param listaFrutas1: conjunto con las frutas
-    :type listaFrutas1: set
-    :param listaFrutas2: conjunto con las frutas
-    :type listaFrutas2: set
-    :return: conjunto con las frutas que están en listafrutas2 pero no en la lsitaFrutas1
-    :rtype: set
-    """
-    frutas_solo_en_frutas2 = listaFrutas2 - listaFrutas1
-    return frutas_solo_en_frutas2
 
 def diferenciasFrutas1(listaFrutas1:set, listaFrutas2:set)->set:
     """Encuentra las frutas que están en la listaFrutas1 pero no en la listaFrutas2
@@ -55,7 +43,7 @@ def main():
     set_frutas2 = set(frutas2)
     interseccionFrutas = encontrarFrutasAmbas(set_frutas1,set_frutas2)
     diferenciaFruta1 = diferenciasFrutas1(set_frutas1,set_frutas2)
-    diferenciaFruta2 = diferenciasFrutas2(set_frutas1, set_frutas2)
+    diferenciaFruta2 = diferenciasFrutas1(set_frutas2, set_frutas1)
     
     print(f"Las frutas que están en ambas listas son: {interseccionFrutas}")
     

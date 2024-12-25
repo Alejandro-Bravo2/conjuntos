@@ -30,7 +30,8 @@ Se han aprendido el uso de los conjuntos de forma práctica
 
 
 2. **Pasos para Ejecutar el Código:**
-   ```python3 + fichero.py
+   ```
+   python3 + fichero.py
    ```
 
 
@@ -41,16 +42,21 @@ Se ha aprendido el uso de los set y frozenset.
 ### Código Fuente
 https://github.com/IES-Rafael-Alberti/2425-u3-3-3-conjuntos-Alejandro-Bravo2/tree/master/src
 
+### Ejemplo de ejecución
+https://github.com/Alejandro-Bravo2/conjuntos/blob/d1461276b281729a25f9aafa9766f25740990182/src/ej5.py#L11-L47
 
-### Resultados de Pruebas
-Se ha comprobado la verificación del código poniendolo a prueba con muchas pruebas.
+Este código esta dividido en funciones, cada una de ellas se encarga de realizar una función en específico.
+La función multiplos lo que hara es realizar una división entre 2 y 3 y si el resto de cada división es 0 se añadirá ese número
+a una lista.
+Luego en la función interseccion_conjuntos lo que se realizará es un union de los elementos comunes de ambas listas
+quedando como resultado los multiplos de 2 y 3
 
 ## Conclusiones
 Se ha aprendido a usar los set y frozenset en ejemplos prácticos y también a usar 
 las intersecciones y otros metodos de operaciones sobre los conjuntos.
 
 ## Referencias y Fuentes
-He usado como fuentes la página de edu.
+He usado como fuentes la página de eduardo.
 
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**

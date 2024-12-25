@@ -1,3 +1,10 @@
+"""
+Solicitar al usuario que introduzca los nombres de pila de los alumnos de primaria de una escuela, 
+finalizando cuando se introduzca “x”. A continuación, solicitar que introduzca los nombres de los alumnos 
+de secundaria, finalizando al introducir “x”.
+
+
+"""
 def pregunta()->list:
     """ Entrada datos
 
@@ -100,9 +107,16 @@ def comprobacion_total(alumnado_primaria, alumnado_secundaria):
         contador += 1
     return tmp
 
-
+def removerX(alumnado_primaria:list, alumnado_secundaria:list)->tuple:
+    posicion1 = alumnado_primaria.index("x")
+    alumnado_primaria.pop(posicion1)
+    posicion2 = alumnado_secundaria.index("x")
+    alumnado_secundaria.pop(posicion2)
+    return alumnado_primaria,alumnado_secundaria
+    
 def main():
     alumnado_primaria, alumnado_secundaria = pregunta()
+    alumnado_primaria, alumnado_secundaria = removerX(alumnado_primaria, alumnado_secundaria)
     lista_no_repetidos_primaria, lista_no_repetidos_secundaria = nombres_no_repetidos(alumnado_primaria,alumnado_secundaria)
     repeticiones_primaria, repeticiones_secundaria = nombres_repetidos(alumnado_primaria, alumnado_secundaria)
     alumnados_repetidos = comprobar_si_repiten(alumnado_primaria, alumnado_secundaria)

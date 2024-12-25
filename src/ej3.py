@@ -1,3 +1,6 @@
+"""
+El conjunto potencia de un conjunto S es el conjunto de todos los subconjuntos de S.
+"""
 def conjunto_potencia(subconjunto_s:set)->list:
     """Genera la potencia de un conjunto dado
 

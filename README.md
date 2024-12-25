@@ -39,10 +39,9 @@ Se han aprendido el uso de los conjuntos de forma práctica
 ### Descripción del Desarrollo
 Se ha aprendido el uso de los set y frozenset.
 
-### Código Fuente
-https://github.com/IES-Rafael-Alberti/2425-u3-3-3-conjuntos-Alejandro-Bravo2/tree/master/src
 
 ### Ejemplo de ejecución
+#### Ejemplo de código fuente
 https://github.com/Alejandro-Bravo2/conjuntos/blob/d1461276b281729a25f9aafa9766f25740990182/src/ej5.py#L11-L47
 
 Este código esta dividido en funciones, cada una de ellas se encarga de realizar una función en específico.
